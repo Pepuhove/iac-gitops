@@ -15,7 +15,7 @@ variable "ecr_repo" {
 variable "k8s_version" {
   default = "1.33"
 }
-
+# 
 variable "vpc_cidr_block" {
   default = "10.0.0.0/16"
 }
