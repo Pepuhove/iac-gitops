@@ -3,7 +3,7 @@ module "eks" {
   source  = "terraform-aws-modules/eks/aws"
   version = "21.1.5"
 
-  name                   = "githubactions-eks"
+  name                   = var.name
   kubernetes_version = var.k8s_version
   endpoint_public_access = true
 

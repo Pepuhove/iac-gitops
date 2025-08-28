@@ -5,7 +5,7 @@ variable "aws_region" {
 }
 
 variable "name" {
-  default = "githubactions-eks"
+  default = "my_eks_cluster"
 }
 
 variable "ecr_repo" {
