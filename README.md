@@ -1,6 +1,7 @@
 # AWS Infrastructure with Terraform (EKS, VPC, ECR, IAM, S3 Backend)
 
-This project provisions a complete AWS infrastructure using **Terraform**. It includes an Amazon EKS cluster, ECR repository, VPC, IAM roles/policies, and S3 remote backend for state management.  
+This project provisions a complete AWS infrastructure using **Terraform**. 
+It includes an Amazon EKS cluster, ECR repository, VPC, IAM roles/policies, and S3 remote backend for state management.  
 
 ---
 
@@ -54,8 +55,8 @@ An S3 bucket created for the Terraform backend (example: finance1214)
 IAM user with admin or sufficient permissions
 
 📂 Project Structure
-bash
-Copy code
+
+
 ├── main.tf               # Main infrastructure definition
 ├── variables.tf          # Input variables
 ├── outputs.tf            # Terraform outputs
@@ -64,24 +65,24 @@ Copy code
 └── README.md             # Documentation
 🚦 Usage
 1️⃣ Initialize Terraform
-bash
-Copy code
+
+
 terraform init
 2️⃣ Validate Configuration
-bash
-Copy code
+
+
 terraform validate
 3️⃣ Plan Infrastructure
-bash
-Copy code
+
+
 terraform plan
 4️⃣ Apply Infrastructure
-bash
-Copy code
+
+
 terraform apply -auto-approve
 5️⃣ Destroy Infrastructure
-bash
-Copy code
+
+
 terraform destroy -auto-approve
 🔑 Variables
 Variable	Description	Example
