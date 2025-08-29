@@ -2,10 +2,10 @@
 name: "infra-gitops"
 
 # Workflow Triggers
-on:
-  push:
-    branches:
-      - main 
+# on:
+#   push:
+#     branches:
+#       - main 
     paths:  
       - terraform/**
   workflow_dispatch: # Enables manual trigger for destroy job
