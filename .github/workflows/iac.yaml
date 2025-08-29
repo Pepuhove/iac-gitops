@@ -9,7 +9,6 @@ on:
     paths:  
       - terraform/**
   workflow_dispatch: # Enables manual trigger for destroy job
-
 # Environment Variables
 env:
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
